@@ -8,7 +8,7 @@ import store from './vuex/user';
 import FastClick from 'fastclick';
 Vue.use(VueRouter);
 Vue.use(Alert);
-
+console.log(123)
 $.ajaxSettings.crossDomain = true;
 
 // 实例化Vue的filter
